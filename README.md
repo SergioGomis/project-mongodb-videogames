@@ -6,8 +6,12 @@ This repo is a project for developing skills at the Data Analytics bootcamp of I
 **Actually under construction**. My current To-Do-List:
 
 - [x] First queries in mongodb
-- [ ] Pandas expand and explode
-- [ ] Google places API
-- [ ] Some web scraping with selenium
-- [ ] Compose a pdf
-- [ ] Send email
+- [x] Pandas explode for coords
+- [x] Carto maps
+- [x] Google places API
+- [ ] Conclusions
+- [ ] Move aux functions to aux.py
+- [ ] Work with the storytelling in Jupyter
+- [ ] Compose a PDF with the results?
+- [ ] Readme
+
