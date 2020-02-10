@@ -36,6 +36,15 @@ def numAirportsFromCoords(tupla):
     json_data = json.loads(response_data.text)
     return len(json_data['results'])
 
+def numClubsFromCoords(tupla):
+    tipositio='night_club'
+    radio='1000'
+    API_KEY = os.getenv("PLACES_API_TOKEN")
+    URL = f'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={tupla[0]},{tupla[1]}&type={tipositio}&radius={radio}&key={API_KEY}'
+    response_data = requests.get(URL)
+    json_data = json.loads(response_data.text)
+    return len(json_data['results'])
+
 
 # From Response/JSON to dict:
 # data_dict = json.loads(response_data.text)

@@ -38,3 +38,15 @@ def toGeoJSON(lon,lat):
         "type":"Point",
         "coordinates":[lon,lat]
     }
+
+
+def withGeoQuery(location,maxDistance=10000,minDistance=0,field="location"):
+    return {
+       field: {
+         "$near": {
+           "$geometry": location,
+           "$maxDistance": maxDistance,
+           "$minDistance": minDistance
+         }
+       }
+    }
