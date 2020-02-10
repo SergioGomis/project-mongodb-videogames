@@ -3,15 +3,14 @@
 
 This repo is a project for developing skills at the Data Analytics bootcamp of Ironhack Madrid by querying a MongoDB database and doing some geospacial analysis with maps in jupyter notebook.
 
-**Actually under construction**. My current To-Do-List:
+**Currently under construction**. My To-Do-List:
 
-- [x] First queries in mongodb
+- [x] Dabatabse cleanup coords
 - [x] Pandas explode for coords
 - [x] Carto maps
 - [x] Google places API
-- [ ] Conclusions
-- [ ] Move aux functions to aux.py
+- [x] Move aux functions to gameslib.py
 - [ ] Work with the storytelling in Jupyter
-- [ ] Compose a PDF with the results?
+- [ ] Conclusions
 - [ ] Readme
 
