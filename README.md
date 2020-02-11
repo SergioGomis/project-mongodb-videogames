@@ -23,6 +23,13 @@ We'll show how many near schools, airports, starbucks and design companies are n
 
 
 #### Usage
+
+First of all, you'll need to load on your local MongoDB server the initial companies database. Unzip the 'Crunchbase Dataset.zip' file in the inputs folder and launch in shell the following command:
+
+```bash
+mongoimport --db companies --collection companies inputs/companies.json
+```
+
 In order to perform requests to the Google Places API, you'll need an API key on a .env file.
 
 *.env file:*
