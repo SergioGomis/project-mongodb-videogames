@@ -5,7 +5,7 @@ This repo is a project for developing skills at the Data Analytics bootcamp of I
 
 ## Challenge: New office location
 
-Our brand-new videogames company, **Fictional Games Ltd.**, need a nice location for its headquarters and we have a bunch of suggestions of our employees. A little weird suggestions, to be said. We'll try to make the most of them happy.
+Our brand-new videogames company, **Fictional Games Ltd.**, needs a nice location for its headquarters and we have a bunch of suggestions of our employees. A little weird suggestions, to be said. We'll try to make the most of them happy.
 
 ### The scope
 
@@ -22,7 +22,7 @@ We'll show how many near schools, airports, starbucks and design companies are n
 
 
 
-#### Usage
+## Usage
 
 First of all, you'll need to load on your local MongoDB server the initial companies database. Unzip the 'Crunchbase Dataset.zip' file in the inputs folder and launch in shell the following command:
 
@@ -30,7 +30,9 @@ First of all, you'll need to load on your local MongoDB server the initial compa
 mongoimport --db companies --collection companies inputs/companies.json
 ```
 
-In order to perform requests to the Google Places API, you'll need an API key on a .env file.
+Other database loads will be told along the notebooks.
+
+Also, in order to perform requests to the Google Places API, you'll need an API key on a .env file.
 
 *.env file:*
 ```bash
