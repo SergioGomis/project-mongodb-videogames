@@ -3,14 +3,30 @@
 
 This repo is a project for developing skills at the Data Analytics bootcamp of Ironhack Madrid by querying a MongoDB database and doing some geospacial analysis with maps in jupyter notebook.
 
-**Currently under construction**. My To-Do-List:
+## Challenge: New office location
 
-- [x] Dabatabse cleanup coords
-- [x] Pandas explode for coords
-- [x] Carto maps
-- [x] Google places API
-- [x] Move aux functions to gameslib.py
-- [ ] Work with the storytelling in Jupyter
-- [ ] Conclusions
-- [ ] Readme
+Our brand-new videogames company, **Fictional Games Ltd.**, need a nice location for its headquarters and we have a bunch of suggestions of our employees. A little weird suggestions, to be said. We'll try to make the most of them happy.
+
+### The scope
+
+We have a huge database of the most outstanding companies worldwide. On the first step, we'll load it on MongoDB, and will clean their locations attributes working with pypmongo in jupyter.
+
+### The big search
+
+With our 2.0 database we'll learn how to perform our first geoqueries with MongoDB and plot a few maps in jupyter. With some candidate cities on mind, we'll focus on the services they provide (they sure have a Starbucks but we'll check anyway).
+
+### The conclusions
+
+We'll show how many near schools, airports, starbucks and design companies are near those points and choose our favourite.
+
+
+
+
+#### Usage
+In order to perform requests to the Google Places API, you'll need an API key on a .env file.
+
+*.env file:*
+```bash
+PLACES_API_TOKEN=XXXXXX
+```
 
